@@ -3,7 +3,7 @@
   color: white;
 }
   .nav{
-  height: 40px;
+  height: 60px;
 background-image: linear-gradient(to right, orange,rgb(248, 112, 202));
 
 }
@@ -13,7 +13,7 @@ background-image: linear-gradient(to right, orange,rgb(248, 112, 202));
   font-size: 1.2rem;
   align-items: center;
   margin-left: 20%;
-  
+  cursor: pointer;
 
 }
 .list{
@@ -78,8 +78,9 @@ background-image: linear-gradient(to right, orange,rgb(248, 112, 202));
 .banner{
   height: 400px;
   width: 100%;
-  background-image: url(banner.jpg);
-  background-size: 1000px;
+  background-image: url(banner2.png);
+
+  background-size: contain;
 
 }
 .navbar-containt ul{ 
@@ -94,5 +95,97 @@ background-image: linear-gradient(to right, orange,rgb(248, 112, 202));
 .navbar-containt{
   align-items: center;
   justify-content: center;
+  /* cursor: pointer; */
   
+}
+ul li{
+
+  cursor: pointer;
+}
+.strip{
+  height: 210px;
+  background-image: linear-gradient(to right, orange,rgb(248, 112, 202));
+}
+.all{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  height: 210px;
+
+
+
+}
+
+.sip{
+height: 150px;
+width: 250px;
+display: flex;
+justify-content: space-around;
+cursor: pointer;
+font-family:system-ui;
+font-weight: 500;
+font-size: 1.1rem;
+
+}
+.fa-rocket{
+  padding-right: 20px;
+  padding-top:20px;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  
+}
+.fa-headphones{
+  padding-right: 20px;
+  padding-top:20px;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+.fa-clock{
+  padding-right: 20px;
+  padding-top:20px;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+p{
+  font-weight: 400;
+}
+.about2{
+  background-image: url(thinking.png);
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+
+}
+.abt{
+  padding-left: 100px;
+padding-top: 70px;
+font-size: 2rem;
+}
+.head{
+padding-top: 30px;
+padding-left: 100px;
+}
+.lorem{
+  padding-left: 100px;
+  padding-top: 40px;
+  font-family:system-ui;
+}
+
+.whole{
+  width: 40%;
+}
+button{
+  margin-left: 100px;
+  margin-top:20px;
+  height: 40px;
+  width: 100px;
+  color: rgb(255, 255, 255);
+  border-radius: 40px;
+  border: 2px solid white;
+  cursor: pointer;
+  background: linear-gradient(to right, orange,rgb(248, 112, 202)); ;
 }
